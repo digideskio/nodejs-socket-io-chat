@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-socket-io-chat",
+  "version": "1.0.0",
+  "description": "Real Time Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchathu/nodejs-socket-io-chat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "chat"
+  ],
+  "author": "Chathu Vishwajith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamchathu/nodejs-socket-io-chat/issues"
+  },
+  "homepage": "https://github.com/iamchathu/nodejs-socket-io-chat#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

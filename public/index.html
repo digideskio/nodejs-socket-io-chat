@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!--Import materialize.css-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+<head>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	</head>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
 
-	<body>
-		<h1>Test </h1>
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-	</body>
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center">Real Time Chat</a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<ul class="collection"  id="messages">
+			<li class="collection-item">Alvin</li>
+		</ul>
+	</main>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<form class="col s12" action="">
+					<div class="row">
+						<div class="input-field">
+							<input id="m" type="text" class="validate" autocomplete="off">
+							<label for="m" class="white-text">Message</label>
+						</div>
+						<div>
+							<button type="button" class="btn waves-effect waves-light"><i class="material-icons right">comment</i></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</footer>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
 </html>

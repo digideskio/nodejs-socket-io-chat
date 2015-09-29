@@ -9,22 +9,23 @@ Style by [MaterializeCSS](http://materializecss.com/)
 * Clone this repo
 
 ```
-$ git clone https://github.com/iamchathu/nodejs-socket-io-chat.git
+git clone https://github.com/iamchathu/nodejs-socket-io-chat.git
 ```
 
 * Go to nodejs-socket-io chat folder and run
 
 ```
-$ npm install
+npm install
 ```
 
 * Then run the project by
 
 ```
-$ gulp serve
+gulp serve
 ```
 
 * Open a browser and visit 'localhost:5000'
+
 (Better to use multiple windows of browser with same url)
 
 Fork It, Use It

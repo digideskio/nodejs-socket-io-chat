@@ -21,7 +21,6 @@
 	</header>
 	<main>
 		<ul class="collection"  id="messages">
-			<li class="collection-item">Alvin</li>
 		</ul>
 	</main>
 	<footer class="page-footer">
@@ -34,19 +33,27 @@
 							<label for="m" class="white-text">Message</label>
 						</div>
 						<div>
-							<button type="button" class="btn waves-effect waves-light"><i class="material-icons right">comment</i></button>
+							<button type="submit" class="btn waves-effect waves-light"><i class="material-icons right">comment</i></button>
 						</div>
 					</div>
 				</form>
 			</div>
 		</div>
 	</footer>
-	<script src="/socket.io/socket.io.js"></script>
-	<script>
-		var socket = io();
-	</script>
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+		var socket = io();
+		$('form').submit(function(){
+			socket.emit('chat message', $('#m').val());
+			$('#m').val('');
+			return false;
+		});
+		socket.on('chat message', function(msg){
+			$('#messages').append($('<li class="collection-item">').text(msg));
+		});
+	</script>
 </body>
 </html>

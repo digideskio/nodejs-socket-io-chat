@@ -6,13 +6,25 @@ Style by [MaterializeCSS](http://materializecss.com/)
 ### Run ###
 
 * Make sure you have Nodejs or iojs installed
+* Make sure you have gulp installed globally. If not run
+
+```
+npm install -g gulp
+```
+
 * Clone this repo
 
 ```
 git clone https://github.com/iamchathu/nodejs-socket-io-chat.git
 ```
 
-* Go to nodejs-socket-io chat folder and run
+* Go to nodejs-socket-io-chat folder 
+
+```
+cd nodejs-socket-io-chat
+```
+ 
+* Then run
 
 ```
 npm install

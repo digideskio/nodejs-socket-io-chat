@@ -47,3 +47,7 @@ Fork It, Use It
 * Scrollable chat 
 * AngularJS SPA Frontend with nicknames
 * Save chat messages with infintite scroll
+
+
+
+Made with :sparkling_heart: [Chathu Vishwajith](http://chathu.me)

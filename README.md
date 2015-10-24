@@ -51,3 +51,5 @@ Fork It, Use It
 
 
 Made with :sparkling_heart: [Chathu Vishwajith](http://chathu.me)
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/iamchathu/nodejs-socket-io-chat/master/LICENSE)
